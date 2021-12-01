@@ -1,0 +1,21 @@
+{
+    "name": "catasta",
+    "version": "1.0.0",
+    "description": "Backend Scaffold",
+    "main": "index.js",
+    "repository": "https://github.com/ravielze/catasta.git",
+    "author": "ravielze <ravielz20@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "@types/node": "^16.11.11",
+        "class-validator": "^0.13.2",
+        "reflect-metadata": "^0.1.13",
+        "typedi": "^0.10.0",
+        "typeorm": "^0.2.41",
+        "typescript": "^4.5.2"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "tsc && node dist/index.js"
+    }
+}
